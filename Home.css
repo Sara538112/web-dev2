@@ -1,0 +1,310 @@
+body{
+    width: 96%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-image: url('https://i.pinimg.com/736x/32/ad/92/32ad92e8a44ccb952112aba9db51ad24.jpg');
+    background-size: cover;
+    background-position:center;
+    backdrop-filter: blur(3px);
+}
+#navbar1{
+    position: relative;
+    display: flex;
+    padding-top: 1%;
+    margin: 10px;
+    color: rgb(247, 247, 249);
+    justify-content: space-between;
+}
+#navbar1 a{
+    color: white;
+    display: contents;
+}
+#navbar2{
+    display: none;
+}   
+
+#d2{
+    color: white;
+    text-align: center;
+    padding-top: 300px;
+}
+#d3 a{
+    margin-left: 90%;
+    color: white;
+    opacity: 0.7;
+
+}
+
+@media (max-width:600px) {
+    #navbar1{
+        display: none;
+    }
+   #navbar2{
+        display:block;
+        color: white;
+        padding: 10px;
+        margin: 10px;
+    }
+    #navbar2 li{
+        margin: 10px;
+    }
+    #navbar2 a{
+        display: contents;
+        color: white;
+    }
+  
+}
+
+#search4{
+    padding-top: 50px;
+    background-color: rgba(255, 255, 255, 0.142);
+}
+
+#txt1{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+#search5{
+    display: none;
+}
+@media (max-width:600px) 
+{ 
+    #search4{
+        display: none;
+    } 
+    #search5{
+        display:block;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.141);
+        border-radius: 20px;
+
+    }
+    #booking1 label{
+        color: white;
+        font-weight: bold;
+        justify-content: center;
+        text-align: center;
+    }
+    #booking1 input{
+        margin-left: 2%;
+    }
+    #search1{
+        padding: 10px;
+        justify-items: center;
+        border: none;
+        background-color:rgb(135, 173, 250);
+    }
+}
+#booking {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#booking h5{
+    margin: 1%;
+}
+#booking input{
+    border-radius: 10px;
+
+}
+#search4 h5{
+    text-align: center;
+}
+#search{
+    padding: 10px;
+    justify-items: center;
+    border: none;
+    background-color:rgb(135, 173, 250);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#d4{
+    background-color:rgb(248, 249, 251);
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+.cards{
+    text-align: center;
+    margin: 1%;
+    color: rgb(135, 173, 250);
+}
+.cards img{
+    height: 100px;
+    width: 100px;
+}
+
+#d5{
+    background-color:rgb(248, 249, 251);
+    justify-content: center;
+    padding: 3%;
+}
+#txt2{
+    color: rgb(135, 173, 250);
+    size: 25px;
+    padding-top: 100px;
+    text-align: center;
+}
+#txt3{
+    color: rgb(135, 173, 250);
+    text-align: center;
+}
+#d50{
+    display:flex;
+    justify-content: center;
+}
+#d51{
+    display: flex;
+    justify-content: center;
+
+}
+.cards2{
+    margin: 3%;
+    color: rgb(135, 173, 250);
+    text-align: center;
+}
+.cards2 img{
+    height: 250px;
+    width: 190px;
+    border-radius: 12px;
+}
+
+@media (max-width:600px) {
+    .cards2 img{
+        width: 300px;
+    }
+
+    #d50{
+        display:block;
+    }
+    #d51{
+        display: block;
+    }
+}
+
+#d7{
+    background-color:rgb(248, 249, 251);
+    display:block;
+    padding: 10px;
+
+}
+#d7 a{
+    color: rgb(135, 173, 250);
+    margin-left: 80%;
+
+    opacity: 0.7;
+}
+#d8{
+    padding-top: 200px;
+    height: 50%;
+    display: flex;
+    background-color:rgb(248, 249, 251);
+}
+.cards3{
+    margin-left: 2%;
+    display:flex;
+    margin-top: 2.5%;
+}
+#d10 img{
+    width: 300px;
+    height: 200px;
+}
+#d11{
+    color: rgb(135, 173, 250);
+    margin-top: -20px;
+    margin-left: 2%;
+}
+#dnum{
+    display:flex;
+    font-size: 20px;
+}
+#txt{
+    margin-top: -15px;
+}
+#txt h6{
+    margin-top: -20px;
+}
+#txt p{
+    color: rgb(31, 55, 104);
+}
+
+#d12 img{
+    filter: blur(1px);
+}
+@media (max-width:1250px) {
+    #d8{
+        display:block;
+        padding: 50px;
+    }
+}
+#d12{
+    position: relative;
+    display:flex;
+    margin-left: 200px;
+    margin-bottom: 2%;
+    height: 50%;
+    justify-content: center;
+}
+#d12 h3{
+    position:fixed;
+    font-size: 45px;
+    color: white;
+    margin-top: 550px;
+}
+#d12 h5{
+    position: fixed;
+    color: white;
+    margin-top: 630px;
+}
+@media (max-width:1500px) {
+    #d12{
+        margin-left: 10px;
+        padding-top: 50px;
+    }
+}
+#d13{
+    padding-top: 100px;
+    color: white;
+    text-align: center;
+}
+#d14{
+    padding-top: 50px;
+}
+#d14 h3{
+    font-size: 20px;
+}
+#d14 input{
+    border-radius: 12px;
+}
+#d15{
+    display: flex;
+    justify-content: center;
+}
+.cards4{
+    position:relative;
+    padding-top: 50px;
+    text-align: center;
+    margin: 2%;
+}
+.cards4 img{
+    height: 50px;
+    width: 50px;
+}
